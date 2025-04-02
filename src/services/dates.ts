@@ -1,4 +1,4 @@
-function isLeapYear(year : number) : boolean {
+export function isLeapYear(year : number) : boolean {
     
     if ((year % 400) === 0){
         return true;
@@ -10,8 +10,3 @@ function isLeapYear(year : number) : boolean {
         return false;
     }
 }
-
-console.log(`2000 ${isLeapYear(2000)}`); // true
-console.log(`1900 ${isLeapYear(1900)}`); // false
-console.log(`2024 ${isLeapYear(2024)}`); // true
-console.log(`2023 ${isLeapYear(2023)}`); // false
