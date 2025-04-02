@@ -1,3 +1,0 @@
-function leapYear(params:type) {
-    
-}
